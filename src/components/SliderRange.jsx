@@ -10,7 +10,7 @@ function SliderRange({length,knowledge}) {
         min={6}
         max={100} 
         value={length}
-        onChange={(e)=>{setLength(e.target.value)}}
+        //onChange={(e)=>{setLength(e.target.value)}}
         className='w-full cursor-pointer'/>
     </div>
   )

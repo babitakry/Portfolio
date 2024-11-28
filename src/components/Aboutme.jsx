@@ -9,7 +9,7 @@ function Aboutme() {
         <div className='w-[48%] h-full flex flex-col gap-'>
             <ImageSection/>
         </div>
-        <div className='w-[58%] h-full flex flex-col items-start border-2 px-4 py-4 gap-y-3'>
+        <div className='w-[52%] h-full flex flex-col items-start border-2 px-4 py-4 gap-y-3'>
             <h1 className='text-3xl font-semibold px-1'>About Me</h1>
             <p className='text-start text-slate-600 px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit odit maiores eligendi, neque dignissimos in dolorem aliquid vel accusamus facilis, corporis sunt labore quas nostrum.</p>
 
