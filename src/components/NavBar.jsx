@@ -3,7 +3,7 @@ import Babitalogo from '../assets/Babitalogo.jpg'
 
 const NavBar = () => {
   return (
-    <div className='w-[1140px] mx-auto h-[67px] border-2 flex justify-between items-center px-4'>
+    <div className='w-[1140px] mx-auto h-[67px] flex justify-between items-center px-4'>
          <div className=''>
           <img src={Babitalogo} className='h-14' alt="" />
          </div>

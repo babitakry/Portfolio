@@ -7,8 +7,8 @@ import ImageSection from './ImageSection';
 
 function Introduction() {
   return (
-    <div className='w-[1140px] mx-auto h-[425px] border-2 my-5 gap-10 flex'>
-        <div className='w-[58%] flex flex-col items-start border-2 px-4 py-8 gap-y-3'>
+    <div className='w-[1140px] mx-auto h-[425px] my-5 gap-10 flex'>
+        <div className='w-[58%] flex flex-col items-start  gap-y-3 p-10'>
             <p className='text-sm font-bold'>Hi I am</p>
             <p className='text-3xl font-bold text-[#FD6F00]'>Babita Kumari</p>
             <div className='text-5xl font-bold'>UI & UX</div>
@@ -20,7 +20,7 @@ function Introduction() {
         </div>
         <div className='w-[48%] h-full flex flex-col gap-'>
             <ImageSection/>
-            <div className='flex justify-center items-end gap-4 p-5 border-2'>
+            <div className='flex justify-center items-end gap-4 p-5 '>
                 <FaFacebook className=''/>
                 <FaXTwitter />
                 <FaInstagram />

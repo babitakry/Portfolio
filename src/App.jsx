@@ -5,7 +5,8 @@ import NavBar from './components/NavBar'
 import Introduction from './components/Introduction';
 import Aboutme from './components/Aboutme';
 import Services from './components/Services';
-import Language from './components/Language';
+import Qualifications from './components/Qualifications';
+import Projectsection from './components/Projectsection';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ function App() {
       <Introduction/>
       <Aboutme/>
       <Services/>
-        
+      <Qualifications/>  
+      <Projectsection/>
     </>
   )
 }

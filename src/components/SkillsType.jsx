@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
-import Language from './Language';
+
 
 
 function SkillsType({item}) {
@@ -17,6 +17,7 @@ function SkillsType({item}) {
     let shrinkFunc = () => {
       setIsOpen(false);
     }
+    
   return (
     <div className='px-2'>
         <div className='flex gap-x-3 items-center'>
