@@ -5,7 +5,7 @@ import SliderRange from './SliderRange';
 function Aboutme() {
     
   return (
-    <div className='w-[1140px] mx-auto h-[470px] my-3 gap-5 flex'>
+    <div className='w-[1000px] mx-auto h-[470px] my-3 gap-5 flex'>
         <div className='w-[48%] h-full flex flex-col gap-'>
             <ImageSection/>
         </div>

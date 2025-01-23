@@ -32,7 +32,7 @@ function SkillsType({item}) {
                 
             </div>
         </div>
-        <p className='text-gray-400 px-10 text-start'>Lorem ipsum dolor sit amet consectetur adipisicing elit! Vel.</p>
+        <p className='text-gray-400 px-11 text-start'>Languages that I have picked up over the years</p>
         <div className=''>
           {
             isOpen && item.types

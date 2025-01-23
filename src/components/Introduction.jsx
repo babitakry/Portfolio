@@ -7,7 +7,7 @@ import ImageSection from './ImageSection';
 
 function Introduction() {
   return (
-    <div className='w-[1140px] mx-auto h-[425px] my-5 gap-10 flex'>
+    <div className='w-[1000px] mx-auto h-[425px] my-5 gap-10 flex'>
         <div className='w-[58%] flex flex-col items-start  gap-y-3 p-10'>
             <p className='text-sm font-bold'>Hi I am</p>
             <p className='text-3xl font-bold text-[#FD6F00]'>Babita Kumari</p>
@@ -20,8 +20,8 @@ function Introduction() {
         </div>
         <div className='w-[48%] h-full flex flex-col gap-'>
             <ImageSection/>
-            <div className='flex justify-center items-end gap-4 p-5 '>
-                <FaFacebook className=''/>
+            <div className='flex justify-center items-end gap-4 p-5 mt-3'>
+                <FaFacebook />
                 <FaXTwitter />
                 <FaInstagram />
                 <FaLinkedin />
