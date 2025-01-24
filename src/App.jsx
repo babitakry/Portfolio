@@ -8,6 +8,7 @@ import Services from './components/Services';
 import Qualifications from './components/Qualifications';
 import Projectsection from './components/Projectsection';
 import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <Qualifications/>  
       <Projectsection/>
       <ContactSection/>
+      <Footer/>
     </>
   )
 }
