@@ -29,7 +29,8 @@ function Services() {
     }
   ]  
   return (
-    <div className='w-[1140px] mx-auto h-auto my-5 gap-10 flex flex-col justify-center items-center'>
+    <div id='skills'
+    className='w-[1140px] mx-auto h-auto my-5 gap-10 flex flex-col justify-center items-center'>
         <div className='w-[70%] mx-auto'>
             <div className='flex flex-col justify-center items-center gap-3 py-10'>
                 <h1 className='text-4xl font-semibold px-1'>Skills</h1>

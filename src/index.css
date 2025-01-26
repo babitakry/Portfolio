@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Ensure higher specificity */
+.swiper-pagination-bullet {
+    background-color: #FD6F00 !important; /* Orange */
+    opacity: 0.5 !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #FD6F00 !important; /* Orange */
+    opacity: 1 !important;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #FD6F00 !important; /* Orange */
+  }
+
+  
+  
+  

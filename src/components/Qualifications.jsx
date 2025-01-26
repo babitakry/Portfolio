@@ -10,7 +10,7 @@ function Qualifications() {
     let education = [
         {
             id : 1,
-            coursename: "B.Tech Information Technology",
+            coursename: "B.Tech in Computer Science",
             collegename: "Asansol Engineering College",
             year: "2022 - 2026"
         },
@@ -28,7 +28,8 @@ function Qualifications() {
         }
     ]
   return (
-    <div className='w-[1140px] mx-auto pt-14 h-screen'>
+    <div id='qualifications'
+    className='w-[1140px] mx-auto pt-14 h-[800px]'>
         <div className='w-[80%] mx-auto flex flex-col justify-center items-center gap-3'>
             <h1 className='text-4xl font-semibold px-1'>Qualifications</h1>
             <p className='text-slate-600'>My Educational Qualification & Work Experience</p>

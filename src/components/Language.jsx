@@ -14,27 +14,32 @@ function Language() {
         {
             id: 1,
             name: "C",
-            icon: <img src={C_Logo} className='text-5xl text-[#FD6F00] w-[15%] h-[20%]'/>
+            icon: <img src={C_Logo} className='text-5xl text-[#FD6F00] w-[15%] h-[20%]'/>,
+            len: 90
         },
         {
             id: 2,
             name: "C++",
-            icon: <img src={CPP} className='text-5xl text-[#FD6F00] w-[13%] h-[13%]'/>
+            icon: <img src={CPP} className='text-5xl text-[#FD6F00] w-[13%] h-[13%]'/>,
+            len: 90
         },
         {
             id: 3,
             name: "Java",
-            icon: <FaJava className='text-5xl text-[#FD6F00]'/>
+            icon: <FaJava className='text-5xl text-[#FD6F00]'/>,
+            len: 70
         },
         {
             id: 4,
             name: "Python",
-            icon: <FaPython className='text-5xl text-[#FD6F00]'/>
+            icon: <FaPython className='text-5xl text-[#FD6F00]'/>,
+            len: 70
         },
         {
             id: 5,
             name: "JavaScript",
-            icon: <IoLogoJavascript className='text-5xl text-[#FD6F00]'/>
+            icon: <IoLogoJavascript className='text-5xl text-[#FD6F00]'/>,
+            len: 70
         },
         
         
@@ -44,7 +49,7 @@ function Language() {
             {
                 languages.map((item) => {
                     return (
-                        <LangCompo item={item} key={item.id} length={100}/>
+                        <LangCompo item={item} key={item.id} length={80}/>
                     )
                 })
                 
