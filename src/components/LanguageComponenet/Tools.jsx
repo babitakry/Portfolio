@@ -10,22 +10,22 @@ function Tools() {
         {
             id: 1,
             name: "Git",
-            icon: <FaGitAlt className='text-5xl text-[#FD6F00]'/>
+            icon: <FaGitAlt className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         {
             id: 2,
             name: "GitHub",
-            icon: <FaGithub className='text-5xl text-[#FD6F00]'/>
+            icon: <FaGithub className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         {
             id: 3,
             name: "Figma",
-            icon: <FaFigma className='text-5xl text-[#FD6F00]'/>
+            icon: <FaFigma className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         {
             id: 4,
             name: "Vercel",
-            icon: <IoLogoVercel className='text-5xl text-[#FD6F00]'/>
+            icon: <IoLogoVercel className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
     ]
     return (

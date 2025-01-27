@@ -11,7 +11,7 @@ function SliderRange({ length, knowledge }) {
         value={length}
         // onChange={(e) => setLength(e.target.value)}
         className="
-          w-full h-2 rounded-lg cursor-pointer 
+          w-full sm:h-2 rounded-lg cursor-pointer 
           bg-gray-200
           accent-[#FD6F00]
           outline-none

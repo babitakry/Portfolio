@@ -3,7 +3,7 @@ import { FaCalendarAlt } from "react-icons/fa";
 
 function Leftbox({item}) {
   return (
-    <div className='w-[42%] flex flex-col justify-center items-start text-start'>
+    <div className='sm:max-w-[42%] flex flex-col justify-center items-start text-start'>
         <h1 className='text-xl'>{item?.coursename}</h1>
         <p className='text-slate-400'>{item?.collegename}</p>
 

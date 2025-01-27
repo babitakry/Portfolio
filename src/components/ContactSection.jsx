@@ -10,27 +10,27 @@ function ContactSection() {
             <div className='w-[55%] mx-auto  rounded-md py-7 text-center'>
                 <div className='w-full flex justify-center items-center  gap-x-5 '>
                     <div className='w-[46%] flex flex-col text-gray-500 hover:text-gray-900'>
-                        <label for="first_name" class="text-start mb-2 text-sm font-medium ">First name</label>
+                        <label htmlFor="first_name" className="text-start mb-2 text-sm font-medium ">First name</label>
                         <input type="text" id="first_name" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 bg-transparent" placeholder="" />
                     </div>
                     <div className='w-[46%] flex flex-col text-gray-500 hover:text-gray-900'>
-                        <label for="first_name" class="text-start mb-2 text-sm font-medium ">Last name</label>
+                        <label htmlFor="first_name" className="text-start mb-2 text-sm font-medium ">Last name</label>
                         <input type="text" id="first_name" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 bg-transparent" placeholder="" />
                     </div>
                 </div>
 
                 <div className='w-full text-start py-6 px-4 flex flex-col text-gray-500 hover:text-gray-900'>
-                    <label for="email" class="text-start mb-2 text-sm font-medium">Email address</label>
+                    <label htmlFor="email" className="text-start mb-2 text-sm font-medium">Email address</label>
                     <input type="email" id="email" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 bg-transparent" placeholder="" />
                 </div>
 
                 <div className='w-full text-start py-6 px-4 flex flex-col text-gray-500 hover:text-gray-900'>
-                    <label for="subject" class="text-start mb-2 text-sm font-medium">Subject</label>
+                    <label htmlFor="subject" className="text-start mb-2 text-sm font-medium">Subject</label>
                     <input type="text" id="subject" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 bg-transparent" placeholder="" />
                 </div>
 
                 <div className='w-full text-start py-6 px-4 flex flex-col gap-y-9 text-gray-500 hover:text-gray-900'>
-                    <label for="message" class="text-start mb-2 text-sm font-medium ">Message</label>
+                    <label htmlFor="message" className="text-start mb-2 text-sm font-medium ">Message</label>
                     <input type="message" id="message" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 bg-transparent" placeholder="" />
                 </div>
 

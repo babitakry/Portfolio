@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import './App.css'
 import NavBar from './components/NavBar'
 import Introduction from './components/Introduction';
@@ -11,7 +9,6 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

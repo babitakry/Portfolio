@@ -5,16 +5,16 @@ import { FaArrowRight } from "react-icons/fa";
 const ProjectCard = ({data}) => {
   return (
     <div id='project'
-    className='w-[80%] h-auto mx-auto flex justify-center items-center gap-3 '>
-            <div className='flex justify-around items-center'>
+    className='sm:max-w-[80%] sm:h-auto mx-auto flex justify-center items-center '>
+            <div className='flex sm:flex-row flex-col justify-around items-center gap-y-2'>
 
-                <div className='w-[40%] h-auto'>
-                    <img src={data.image} alt="" />
+                <div className='w-[75%] sm:w-[40%] sm:h-auto border-2'>
+                    <img src={data.image} alt="" className='w-full'/>
                 </div>
 
-                <div className='w-[40%] h-auto text-start flex flex-col justify-center items-start gap-3 my-5 p-5'>
+                <div className='sm:w-[40%] h-auto text-start flex flex-col justify-center items-start sm:gap-3 gap-2 sm:my-5 m-0 sm:p-5 p-0'>
                     <h1 className='text-2xl font-bold px-1'>{data.title}</h1>
-                    <p className='text-slate-500 text-base pl-1'>{data.desc}</p>
+                    <p className='hidden sm:block text-slate-500 text-base pl-1'>{data.desc}</p>
                     <div className='w-36 h-14 flex gap-5 bg-[#FD6F00] p-3 m-2 rounded-lg text-white font-bold '>
                         <button className=''>
                             <a href={data.link}>Check Out</a>

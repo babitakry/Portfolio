@@ -12,31 +12,31 @@ function Services() {
     {
         id: 1,
         name: "Languages",
-        icon: <IoCode className='text-3xl text-[#FD6F00] text-end '/>,
+        icon: <IoCode className='text-2xl sm:text-3xl text-[#FD6F00] text-end '/>,
         types: <Language/>
     },
     {
         id: 2,
         name: "Libraries & Framworks",
-        icon: <PiBracketsCurlyBold className='text-3xl text-[#FD6F00] text-end '/>,
+        icon: <PiBracketsCurlyBold className='text-2xl sm:text-3xl text-[#FD6F00] text-end '/>,
         types: <Libraries/>
     },
     {
         id: 3,
         name: "Tools",
-        icon: <TbTool className='text-3xl text-[#FD6F00] text-end '/>,
+        icon: <TbTool className='text-2xl sm:text-3xl text-[#FD6F00] text-end '/>,
         types: <Tools/>
     }
   ]  
   return (
     <div id='skills'
-    className='w-[1140px] mx-auto h-auto my-5 gap-10 flex flex-col justify-center items-center'>
-        <div className='w-[70%] mx-auto'>
+    className='max-w-[1140px] mx-auto h-auto my-5  flex flex-col justify-center items-center'>
+        <div className='sm:max-w-[70%] mx-auto'>
             <div className='flex flex-col justify-center items-center gap-3 py-10'>
-                <h1 className='text-4xl font-semibold px-1'>Skills</h1>
+                <h1 className='text-start sm:text-center text-4xl font-semibold px-1'>Skills</h1>
                 <p className='text-slate-600'>My Technical Skills</p>
             </div>
-            <div className='grid grid-cols-2 gap-5'>
+            <div className='w-full grid sm:grid-cols-2 grid-cols-1 gap-5'>
                 {
                     skillname.map((item)=>{
                         return(

@@ -19,14 +19,14 @@ function SkillsType({item}) {
     }
     
   return (
-    <div className='px-2'>
-        <div className='flex gap-x-3 items-center'>
+    <div className='sm:px-2'>
+        <div className='flex gap-x-2 sm:gap-x-3 items-center'>
             {item?.icon}
-            <div className='text-2xl font-semibold'>{item?.name}</div>
+            <div className='text-2xl font-semibold text-start'>{item?.name}</div>
             <div className='flex-1 flex justify-end'>
 
               {
-                isOpen ? <IoIosArrowUp onClick={shrinkFunc} className='text-3xl text-[#FD6F00] text-end'/> : <IoIosArrowDown onClick={expandFunc} className='text-3xl text-[#FD6F00] text-end '/>
+                isOpen ? <IoIosArrowUp onClick={shrinkFunc} className='text-2xl sm:text-3xl text-[#FD6F00] text-end'/> : <IoIosArrowDown onClick={expandFunc} className='text-2xl sm:text-3xl text-[#FD6F00] text-end '/>
               }
                 
                 

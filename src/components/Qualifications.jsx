@@ -29,7 +29,7 @@ function Qualifications() {
     ]
   return (
     <div id='qualifications'
-    className='w-[1140px] mx-auto pt-14 h-[800px]'>
+    className='max-w-[1140px] mx-auto pt-14 sm:h-[800px] '>
         <div className='w-[80%] mx-auto flex flex-col justify-center items-center gap-3'>
             <h1 className='text-4xl font-semibold px-1'>Qualifications</h1>
             <p className='text-slate-600'>My Educational Qualification & Work Experience</p>
@@ -41,7 +41,7 @@ function Qualifications() {
                 </div>
             </div>
             
-            <div className='w-[60%] h-32 mx-auto mt-5'>
+            <div className='sm:w-[60%] sm:h-32 mx-auto mt-5'>
                 <div className='flex h-full'>
                     <Leftbox item = {education[0]}/>
                     <Path/>

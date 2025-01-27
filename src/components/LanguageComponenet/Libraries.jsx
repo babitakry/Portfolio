@@ -9,17 +9,17 @@ function Libraries() {
         {
             id: 1,
             name: "React",
-            icon: <FaReact className='text-5xl text-[#FD6F00]'/>
+            icon: <FaReact className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         {
             id: 2,
             name: "Tailwind CSS",
-            icon: <RiTailwindCssFill className='text-5xl text-[#FD6F00]'/>
+            icon: <RiTailwindCssFill className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         {
             id: 3,
             name: "MySQL",
-            icon: <SiMysql className='text-5xl text-[#FD6F00]'/>
+            icon: <SiMysql className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         
     ]
