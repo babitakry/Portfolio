@@ -8,7 +8,7 @@ function Aboutme() {
     <div 
     id='about'
     className='w-[1000px] mx-auto h-[450px] my-3 gap-5 flex'>
-      <div className='w-[48%] h-full flex flex-col'>
+      <div className='w-[48%] h-[90%] flex flex-col'>
         <ImageSection />
       </div>
       <div className='w-[52%] h-full flex flex-col items-start px-4 py-4 gap-y-4'>

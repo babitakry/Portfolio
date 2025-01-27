@@ -1,10 +1,11 @@
 import React from 'react'
 import Babitalogo from '../assets/Babitalogo.jpg'
 import { Link } from 'react-scroll'
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const NavBar = () => {
   return (
-    <div className='w-[1000px] mx-auto h-[67px] flex justify-between items-center px-4 sticky top-0 bg-white z-50'>
+    <div className='max-w-[1000px] mx-auto h-[67px] flex justify-between items-center px-4 sticky top-0 bg-white z-50'>
       <div className=''>
         <img src={Babitalogo} className='h-14' alt="" />
       </div>
@@ -72,7 +73,8 @@ const NavBar = () => {
           </Link>
         </div>
         <div className='pt-1'>
-          <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Download CV</button>
+          <button type="button" class="hidden sm:block text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Download CV</button>
+          <RxHamburgerMenu className='block sm:hidden text-2xl'/>
         </div>
       </div>
     </div>
