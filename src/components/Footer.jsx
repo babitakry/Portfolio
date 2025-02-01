@@ -2,10 +2,10 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='sm:max-w-[1140px] w-full mx-auto text-gray-800 mb-14  pt-6'>
-        <div className='w-full h-0.5 bg-gray-200'></div>
-        <h1 className='text-4xl font-semibold m-23 text-gray-600 text-start pt-4 pl-32'>Babita</h1>
-        <div className='w-[80%] mx-auto grid grid-cols-3 gap-10 py-10'>
+    <div className='sm:max-w-[1140px] sm:mx-auto text-gray-800 mb-14  pt-6'>
+        <div className='sm:w-full h-0.5 bg-gray-200'></div>
+        <h1 className='text-4xl font-semibold m-23 text-gray-600 text-start pt-4 p-3 sm:pl-32'>Babita</h1>
+        <div className='sm:w-[80%] mx-auto grid sm:grid-cols-3 grid-cols-2 gap-10 py-10'>
             <div className='flex flex-col justify-center items-start gap-4 capitalize px-6'>
                 <a href="/home">
                   <p className='hover:text-black text-gray-600 w-fit'>Home</p>
@@ -26,7 +26,7 @@ function Footer() {
                   <p className='hover:text-black text-gray-600  w-fit'>Contact</p>
                 </a>
             </div>
-            <div className='flex flex-col gap-4 capitalize'></div>
+            <div className='sm:flex flex-col gap-4 capitalize hidden '></div>
             <div className='flex flex-col  justify-center items-start gap-4 capitalize'>
                 <a href="https://leetcode.com/u/babita1947/">
                   <p className='hover:text-black text-gray-600 w-fit'>Leetcode</p>
