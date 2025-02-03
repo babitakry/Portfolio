@@ -3,7 +3,7 @@ import React from 'react'
 function ContactSection() {
     return (
         <div id='contact'
-            className='max-w-[1140px] mx-auto  mt-6 py-4'>
+            className='max-w-[1140px] mx-auto  mt-6 py-4 px-[2em]'>
             <h1 className='text-4xl font-bold'>Get in  touch</h1>
             <p className='pt-6 pb-6 font-semibold'>Feel free to reach out anytime - whether it's work-related or just a casual chat. I'm here to listen! 🙋‍♂️</p>
 

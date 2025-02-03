@@ -13,7 +13,7 @@ function Introduction() {
         
         <div 
         id = 'home'
-        className='max-w-[1000px] mx-auto min-h-[450px] my-5 gap-10 flex flex-wrap-reverse sm:flex-nowrap justify-center items-center'>
+        className='max-w-[1000px] mx-auto min-h-[450px] my-5 gap-10 flex flex-wrap-reverse sm:flex-nowrap justify-center items-center p-[2em]'>
             <div className='sm:w-[58%] flex flex-col items-start  gap-y-3 sm:p-10'>
                 <p className='text-sm font-bold'>Hi I am</p>
                 <p className='sm:text-2xl text-xl font-bold text-[#FD6F00]'>Babita Kumari</p>
