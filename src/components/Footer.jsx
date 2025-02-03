@@ -2,7 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='sm:max-w-[1140px] sm:mx-auto text-gray-800 mb-14  pt-6'>
+    <div className='w-full'>
+      <div className='sm:max-w-[1140px] sm:mx-auto text-gray-800 mb-14  pt-6'>
         <div className='sm:w-full h-0.5 bg-gray-200'></div>
         <h1 className='text-4xl font-semibold m-23 text-gray-600 text-start pt-4 p-3 sm:pl-32'>Babita</h1>
         <div className='sm:w-[80%] mx-auto grid sm:grid-cols-3 grid-cols-2 gap-10 py-10'>
@@ -51,7 +52,9 @@ function Footer() {
         </div>
         <div className='max-w-full h-0.5 bg-gray-200'></div>
         <div className='w-full h-5 text-gray-950 py-4'>Copyright 2025 : All right reserved</div>
-        <div className='w-full  bg-gray-700 text-gray-200 mt-3 py-4'>Designed with ❤️ by Babita</div>
+        
+    </div>
+    <div className='w-full  bg-[#FD6F00] text-gray-200 mt-3 py-4'>Designed with ❤️ by Babita</div>
     </div>
   )
 }
