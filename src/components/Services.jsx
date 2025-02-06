@@ -13,19 +13,22 @@ function Services() {
         id: 1,
         name: "Languages",
         icon: <IoCode className='text-2xl sm:text-3xl text-[#FD6F00] text-end '/>,
-        types: <Language/>
+        types: <Language/>,
+        desc: "Languages that I have picked up over the years"
     },
     {
         id: 2,
         name: "Libraries & Framworks",
         icon: <PiBracketsCurlyBold className='text-2xl sm:text-3xl text-[#FD6F00] text-end '/>,
-        types: <Libraries/>
+        types: <Libraries/>,
+        desc: "Libraries & Framworks that I have picked up over the years"
     },
     {
         id: 3,
         name: "Tools",
         icon: <TbTool className='text-2xl sm:text-3xl text-[#FD6F00] text-end '/>,
-        types: <Tools/>
+        types: <Tools/>,
+        desc: "Tools that I have picked up over the years"
     }
   ]  
   return (

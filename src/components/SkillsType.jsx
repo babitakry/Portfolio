@@ -29,10 +29,9 @@ function SkillsType({item}) {
                 isOpen ? <IoIosArrowUp onClick={shrinkFunc} className='text-2xl sm:text-3xl text-[#FD6F00] text-end'/> : <IoIosArrowDown onClick={expandFunc} className='text-2xl sm:text-3xl text-[#FD6F00] text-end '/>
               }
                 
-                
             </div>
         </div>
-        <p className='text-gray-400 px-11 text-start'>Languages that I have picked up over the years</p>
+        <p className='text-gray-400 px-11 text-start'>{item?.desc}</p>
         <div className=''>
           {
             isOpen && item.types

@@ -33,7 +33,7 @@ const ProjectData = [
     {
         id: 3,
         title: "PW Skills Landing Page",
-        desc: "Welcome to my personal portfolio website! Explore by scrolling down – you're in the right place to discover more about me and my work.",
+        desc: "Developed a PW Skills frontend clone using HTML and Tailwind CSS.",
         link: "https://pwskillstailwindproject.netlify.app/",
         image: PWSkills
     }
