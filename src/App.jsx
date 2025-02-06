@@ -7,6 +7,7 @@ import Qualifications from './components/Qualifications';
 import Projectsection from './components/Projectsection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import MobileNavbar from './components/MobileNavbar';
 
 function App() {
 

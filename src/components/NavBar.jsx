@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Babitalogo from '../assets/Babitalogo.jpg'
 import { Link } from 'react-scroll'
 import { RxHamburgerMenu } from "react-icons/rx";
+import MobileNavbar from './MobileNavbar';
+import { RxCross2 } from "react-icons/rx";
 
 const NavBar = () => {
+  const [openHamb, setOpenHamb] = useState(false);
+
+
   return (
-    <div className='max-w-[1000px] mx-auto h-[67px] flex justify-between items-center px-4 sticky top-0 bg-white z-50'>
-      <div className=''>
+    <div className='max-w-[1000px] mx-auto pt-4 flex justify-between items-center px-6 sticky top-0 bg-white z-40'>
+      <div className='pt-3'>
         <img src={Babitalogo} className='h-14' alt="" />
       </div>
-      <div className='flex justify-center items-start align-middle gap-12 '>
-        <div className='flex justify-center items-start align-middle gap-6 pt-3 text-sm '>
+      <div className='flex justify-center items-center align-middle gap-12'>
+        <div className='flex justify-center items-center align-middle gap-6 pt-3 text-sm '>
           <Link
             to="home"
             spy={true}
@@ -72,11 +77,25 @@ const NavBar = () => {
           >Contact me
           </Link>
         </div>
-        <div className='pt-1'>
-          <button type="button" className="hidden sm:block text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Download CV</button>
-          <RxHamburgerMenu  className='block sm:hidden text-3xl pb-1'/>
+        <div className='pt-3 flex items-center'>
+          <button
+
+            type="button"
+            className="hidden sm:block text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Download CV</button>
+          {
+            openHamb ? <RxCross2 
+            onClick={()=>setOpenHamb(false)}
+            className='block lg:hidden text-3xl pb-1'/> 
+            : 
+            <RxHamburgerMenu
+            onClick={() => setOpenHamb(true)}
+            className='block lg:hidden text-3xl pb-1' />
+          }
         </div>
       </div>
+      {
+        openHamb && <MobileNavbar />
+      }
     </div>
   )
 }
