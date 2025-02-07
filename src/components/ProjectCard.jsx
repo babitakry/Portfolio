@@ -8,7 +8,7 @@ const ProjectCard = ({data}) => {
     className='sm:max-w-[80%] mx-auto flex justify-center items-center '>
             <div className='flex sm:flex-row flex-col justify-around items-center gap-y-2'>
 
-                <div className='w-[75%] sm:w-[40%] sm:h-auto border-2'>
+                <div className='w-[75%] sm:w-[40%] sm:h-auto'>
                     <img src={data.image} alt="" className='w-full'/>
                 </div>
 
