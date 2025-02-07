@@ -29,7 +29,7 @@ function Introduction() {
                     />
                     <span className='text-[#FD6F00]'>/&gt;</span></div>
                 {/* <div className='text-5xl font-bold px-28'>Designer</div> */}
-                <p className='text-start text-slate-600 py-4'>I'm a Web developer and here is my Portfolio website.
+                <p className='text-start text-slate-600 dark:text-slate-300 py-4'>I'm a Web developer and here is my Portfolio website.
                 Here you'll learn about my journery as web developer and a Software Developer.
                 </p>
                 <div>

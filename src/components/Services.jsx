@@ -37,7 +37,7 @@ function Services() {
         <div className='sm:max-w-[70%] mx-auto'>
             <div className='flex flex-col justify-center items-center gap-3 py-10'>
                 <h1 className='text-start sm:text-center text-4xl font-semibold px-1'>Skills</h1>
-                <p className='text-slate-600'>My Technical Skills</p>
+                <p className='text-slate-600 dark:text-slate-300'>My Technical Skills</p>
             </div>
             <div className='w-full grid sm:grid-cols-2 grid-cols-1 gap-5'>
                 {

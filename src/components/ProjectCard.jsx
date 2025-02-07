@@ -14,7 +14,7 @@ const ProjectCard = ({data}) => {
 
                 <div className='sm:w-[40%] text-start flex flex-col justify-center items-start sm:gap-3 gap-2 sm:my-5 m-0 sm:p-5 p-0'>
                     <h1 className='text-2xl font-bold px-1'>{data.title}</h1>
-                    <p className='hidden sm:block text-slate-500 text-base pl-1'>{data.desc}</p>
+                    <p className='hidden sm:block text-slate-600 dark:text-slate-300 text-base pl-1'>{data.desc}</p>
                     <div className='w-36 flex gap-5 bg-[#FD6F00] p-3 m-2 rounded-lg text-white font-bold '>
                         <button className=''>
                             <a href={data.link}>Check Out</a>
