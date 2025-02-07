@@ -13,7 +13,7 @@ const NavBar = () => {
   const { themeMode, darkTheme, lightTheme } = useTheme();
 
   return (
-    <div className='max-w-[1000px] mx-auto pt-4 flex justify-between items-center px-6 sticky top-0 dark:text-white z-50 dark:bg-[#36404a]'>
+    <div className='max-w-[1000px] mx-auto pt-4 flex justify-between items-center px-6 sticky top-0 bg-white dark:text-white z-50 dark:bg-[#36404a]'>
       <h1 class="text-4xl bg-gradient-to-r from-[#FD6F00] via-red-500 to-[#FD6F00] inline-block text-transparent bg-clip-text">Babita</h1>
       <div className='flex justify-center items-center align-middle gap-6'>
         <div className='flex justify-center items-center align-middle gap-6 pt-3 text-sm '>

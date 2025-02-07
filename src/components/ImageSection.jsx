@@ -1,5 +1,5 @@
 import React from 'react'
-import MyAvatar from '../assets/myavatar.jpg';
+import MyAvatar from '../assets/myavatar.png';
 
 function ImageSection() {
   return (

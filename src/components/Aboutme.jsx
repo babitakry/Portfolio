@@ -7,7 +7,7 @@ function Aboutme() {
   return (
     <div 
     id='about'
-    className='sm:max-w-[1000px] mx-auto min-h-[450px] my-3 gap-5 flex p-[1em]'>
+    className='sm:max-w-[1000px] mx-auto min-h-[450px] my-3 gap-5 flex p-[1em] items-center'>
       <div className='sm:block hidden w-[48%] h-[90%] flex-col'>
         <ImageSection />
       </div>

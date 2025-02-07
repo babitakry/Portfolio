@@ -9,16 +9,19 @@ function Libraries() {
         {
             id: 1,
             name: "React",
+            length: 70,
             icon: <FaReact className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         {
             id: 2,
             name: "Tailwind CSS",
+            length:95,
             icon: <RiTailwindCssFill className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         {
             id: 3,
             name: "MySQL",
+            length:70,
             icon: <SiMysql className='text-3xl sm:text-5xl text-[#FD6F00]'/>
         },
         
@@ -28,7 +31,7 @@ function Libraries() {
             {
                 libraries.map((item) => {
                     return (
-                        <LangCompo item={item} key={item.id} length={100}/>
+                        <LangCompo item={item} key={item.id}/>
                     )
                 })
                 
