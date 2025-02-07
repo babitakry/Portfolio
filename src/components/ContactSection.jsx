@@ -9,29 +9,29 @@ function ContactSection() {
 
             <div className='sm:max-w-[55%] mx-auto  rounded-md py-7 text-center'>
                 <div className='max-w-full flex sm:flex-row flex-col justify-center items-center gap-5'>
-                    <div className='sm:max-w-[46%] w-full flex flex-col text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+                    <div className='sm:max-w-[46%] w-full flex flex-col text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'>
                         <label htmlFor="first_name" className="text-start mb-2 text-sm font-medium ">First name</label>
-                        <input type="text" id="first_name" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 dark:hover:border-white bg-transparent" placeholder="" />
+                        <input type="text" id="first_name" className="bg-gray-50 outline-none border-b-2 border-gray-500 dark:border-gray-300 hover:border-gray-900 dark:hover:border-white bg-transparent" placeholder="" />
                     </div>
-                    <div className='sm:max-w-[46%] w-full flex flex-col text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+                    <div className='sm:max-w-[46%] w-full flex flex-col text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'>
                         <label htmlFor="first_name" className="text-start mb-2 text-sm font-medium ">Last name</label>
-                        <input type="text" id="first_name" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 dark:hover:border-white bg-transparent" placeholder="" />
+                        <input type="text" id="first_name" className="bg-gray-50 outline-none border-b-2 border-gray-500 dark:border-gray-300 hover:border-gray-900 dark:hover:border-white bg-transparent" placeholder="" />
                     </div>
                 </div>
 
-                <div className='w-full text-start py-6 sm:px-4 flex flex-col text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+                <div className='w-full text-start py-6 sm:px-4 flex flex-col text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'>
                     <label htmlFor="email" className="text-start mb-2 text-sm font-medium">Email address</label>
-                    <input type="email" id="email" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900  dark:hover:border-white bg-transparent" placeholder="" />
+                    <input type="email" id="email" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 dark:border-gray-300 dark:hover:border-white bg-transparent" placeholder="" />
                 </div>
 
-                <div className='w-full text-start py-6 sm:px-4 flex flex-col text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+                <div className='w-full text-start py-6 sm:px-4 flex flex-col text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'>
                     <label htmlFor="subject" className="text-start mb-2 text-sm font-medium">Subject</label>
-                    <input type="text" id="subject" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900 dark:hover:border-white bg-transparent" placeholder="" />
+                    <input type="text" id="subject" className="bg-gray-50 outline-none border-b-2 border-gray-500 dark:border-gray-300 hover:border-gray-900 dark:hover:border-white bg-transparent" placeholder="" />
                 </div>
 
-                <div className='w-full text-start py-6 sm:px-4 flex flex-col gap-y-9 text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+                <div className='w-full text-start py-6 sm:px-4 flex flex-col gap-y-9 text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'>
                     <label htmlFor="message" className="text-start mb-2 text-sm font-medium ">Message</label>
-                    <input type="message" id="message" className="bg-gray-50 outline-none border-b-2 border-gray-500 hover:border-gray-900  dark:hover:border-white bg-transparent" placeholder="" />
+                    <input type="message" id="message" className="bg-gray-50 outline-none border-b-2 border-gray-500 dark:border-gray-300 hover:border-gray-900  dark:hover:border-white bg-transparent" placeholder="" />
                 </div>
 
                 <div className=''>

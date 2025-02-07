@@ -13,7 +13,7 @@ const NavBar = () => {
   const { themeMode, darkTheme, lightTheme } = useTheme();
 
   return (
-    <div className='max-w-[1000px] mx-auto pt-4 flex justify-between items-center px-6 sticky top-0 bg-white dark:text-white z-50 dark:bg-[#36404a]'>
+    <div className='max-w-[1000px] mx-auto py-2 flex justify-between items-center px-6 sticky top-0 bg-white dark:text-white z-50 dark:bg-[#36404a] bg-opacity-90 dark:bg-opacity-90 border-b'>
       <h1 class="text-4xl bg-gradient-to-r from-[#FD6F00] via-red-500 to-[#FD6F00] inline-block text-transparent bg-clip-text">Babita</h1>
       <div className='flex justify-center items-center align-middle gap-6'>
         <div className='flex justify-center items-center align-middle gap-6 pt-3 text-sm '>
@@ -97,12 +97,12 @@ const NavBar = () => {
         {
           openHamb && <MobileNavbar />
         }
-        <div className='hidden lg:block'>
+        <div className='block pt-2'>
         {
           themeMode === "light" ?
             <MdDarkMode
               onClick={darkTheme}
-              className='h-10 w-8 text-[#FD6F00]' />
+              className='sm:h-10 sm:w-8 h-7 w-7 text-[#FD6F00]' />
             :
             <MdOutlineLightMode
               onClick={lightTheme}
