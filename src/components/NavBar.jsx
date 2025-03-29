@@ -85,7 +85,7 @@ const NavBar = () => {
           <div className='pt-3 flex'>
             <button
               type="button"
-              onClick={() => window.open("https://drive.google.com/file/d/1W-7WPRAR80CbARkdwm_8GabFrMWkEpXk/view?usp=sharing", "_blank")}
+              onClick={() => window.open("https://drive.google.com/file/d/1E3rTfbKlV-pV-OatSrRZOOaa9Hxq94Uc/view?usp=sharing", "_blank")}
               className="hidden sm:block text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Download CV</button>
             {
               openHamb ? <RxCross2
