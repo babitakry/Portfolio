@@ -14,7 +14,7 @@ const NavBar = () => {
 
   return (
     <div className='max-w-[1000px] mx-auto py-2 flex justify-between items-center px-6 sticky top-0 bg-white dark:text-white z-50 dark:bg-[#36404a] bg-opacity-90 dark:bg-opacity-90 border-b'>
-      <h1 class="text-4xl bg-gradient-to-r dark:text-white from-[#FD6F00] via-red-500 to-[#FD6F00] inline-block text-transparent bg-clip-text">Babita</h1>
+      <h1 class="text-4xl bg-gradient-to-r dark:text-white from-[#FD6F00] via-red-500 to-[#FD6F00] inline-block text-transparent bg-clip-text font-bold">Babita</h1>
       {/* <h1 className='w-36 block dark:hidden '>
         <img src={Babitalogo}/>
       </h1> */}
