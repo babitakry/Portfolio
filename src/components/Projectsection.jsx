@@ -2,6 +2,8 @@ import React from 'react'
 import RazorpayImage from '../assets/Razorpay.png';
 import PWSkills from '../assets/PWskills.png';
 import PortfolioScr from '../assets/portfolioscr.png';
+import CodeDSA from '../assets/codedsa.png'
+import MyNewsApp from '../assets/mynewsapp.png';
 
 
 // import Swiper core and required modules
@@ -36,7 +38,22 @@ const ProjectData = [
         desc: "Developed a PW Skills frontend clone using HTML and Tailwind CSS.",
         link: "https://pwskillstailwindproject.netlify.app/",
         image: PWSkills
+    },
+    {
+        id: 4,
+        title: "CodeDSA",
+        desc: "A platform to practice Data Structures and Algorithms with categorized problems and a clean UI.",
+        link: "https://codedsa-eta.vercel.app/",
+        image: CodeDSA
+    },
+    {
+        id: 5,
+        title: "MyNews App",
+        desc: "A responsive news website where users can browse articles by categories such as General, Business, Entertainment, Health, Science, Sports, and Technology.",
+        link: "https://mnews.vercel.app/",
+        image: MyNewsApp
     }
+    
 
 ]
 

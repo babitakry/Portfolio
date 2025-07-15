@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Babitalogo from '../assets/Babitalogo.png'
 import { Link } from 'react-scroll'
 import { RxHamburgerMenu } from "react-icons/rx";
 import MobileNavbar from './MobileNavbar';
@@ -14,7 +13,7 @@ const NavBar = () => {
 
   return (
     <div className='max-w-[1000px] mx-auto py-2 flex justify-between items-center px-6 sticky top-0 bg-white dark:text-white z-50 dark:bg-[#36404a] bg-opacity-90 dark:bg-opacity-90 border-b'>
-      <h1 class="text-4xl bg-gradient-to-r dark:text-white from-[#FD6F00] via-red-500 to-[#FD6F00] inline-block text-transparent bg-clip-text font-bold">Babita</h1>
+      <h1 class="text-4xl bg-gradient-to-r dark:text-white from-[#FD6F00] via-red-500 to-[#FD6F00] inline-block text-transparent bg-clip-text italic font-bold">Babita</h1>
       {/* <h1 className='w-36 block dark:hidden '>
         <img src={Babitalogo}/>
       </h1> */}
@@ -85,7 +84,7 @@ const NavBar = () => {
           <div className='pt-3 flex'>
             <button
               type="button"
-              onClick={() => window.open("https://drive.google.com/file/d/1E3rTfbKlV-pV-OatSrRZOOaa9Hxq94Uc/view?usp=sharing", "_blank")}
+              onClick={() => window.open("https://drive.google.com/file/d/1N6ZzJGwaDGvWMeoUMki9xeDPOUREdUwG/view?usp=drive_link", "_blank")}
               className="hidden sm:block text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ">Download CV</button>
             {
               openHamb ? <RxCross2
