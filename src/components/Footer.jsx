@@ -5,7 +5,7 @@ function Footer() {
     <div className='w-full'>
       <div className='sm:max-w-[1140px] sm:mx-auto text-gray-800 mb-14  pt-6 px-[2em]'>
         <div className='sm:w-full h-0.5 bg-gray-200'></div>
-        <h1 className='text-4xl font-semibold m-23 text-gray-600 dark:text-gray-300 md:text-start text-start pt-4 pl-6 sm:pl-24'>Babita</h1>
+        <h1 className='text-4xl font-semibold m-23 text-gray-600 dark:text-gray-300 md:text-start text-start pt-4 pl-6 sm:pl-24 italic'>Babita</h1>
         <div className='sm:w-[80%] mx-auto grid sm:grid-cols-3 grid-cols-2 gap-10 py-10'>
             <div className='flex flex-col justify-center items-start gap-4 capitalize px-6'>
                 <a href="/home">
@@ -54,7 +54,7 @@ function Footer() {
         <div className='w-full h-5 text-gray-950  dark:text-gray-300 py-4'>Copyright 2025 : All right reserved</div>
         
     </div>
-    <div className='w-full  bg-[#FD6F00] text-gray-200 mt-3 py-4'>Designed with ❤️ by Babita</div>
+    <div className='w-full  bg-[#FD6F00] text-gray-200 mt-3 py-4'>Design & Developed with ❤️ by Babita</div>
     </div>
   )
 }
