@@ -2,8 +2,8 @@ import React from 'react'
 import RazorpayImage from '../assets/Razorpay.png';
 import PWSkills from '../assets/PWskills.png';
 import PortfolioScr from '../assets/portfolioscr.png';
-import CodeDSA from '../assets/codedsa.png'
-import MyNewsApp from '../assets/mynewsapp.png';
+import CodeDSA from '../assets/Codedsa.png'
+import MyNewsApp from '../assets/Mynewsapp.png';
 
 
 // import Swiper core and required modules
