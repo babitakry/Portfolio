@@ -10,6 +10,9 @@ import Footer from './components/Footer';
 import { ThemeProvider } from './contexts/Theme';
 import { useEffect, useState } from 'react';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function App() {
   const [themeMode, setThemeMode] = useState("light");
@@ -21,6 +24,13 @@ function App() {
   const darkTheme = () => {
     setThemeMode("dark")
   }
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in ms
+      once: true,     // Whether animation should happen only once
+    });
+  }, []);
 
   //actual change in theme
   useEffect(() => {
