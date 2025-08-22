@@ -17,29 +17,27 @@ import 'aos/dist/aos.css';
 function App() {
   const [themeMode, setThemeMode] = useState("light");
 
-  const lightTheme = () => {
-    setThemeMode("light")
-  }
-
-  const darkTheme = () => {
-    setThemeMode("dark")
-  }
+  const lightTheme = () => setThemeMode("light");
+  const darkTheme = () => setThemeMode("dark");
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration in ms
-      once: true,     // Whether animation should happen only once
+      duration: 800,
+      once: false, 
     });
   }, []);
 
-  //actual change in theme
   useEffect(() => {
-    document.querySelector('html').classList.remove("light", "dark");
-    document.querySelector('html').classList.add(themeMode);
-  }, [themeMode])
+    const html = document.querySelector('html');
+    html.classList.remove("light", "dark");
+    html.classList.add(themeMode);
+
+    // Refresh AOS on theme change
+    AOS.refresh();
+  }, [themeMode]);
 
   return (
-    <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>
+    <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       <NavBar />
       <Introduction />
       <Aboutme />
@@ -52,4 +50,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
