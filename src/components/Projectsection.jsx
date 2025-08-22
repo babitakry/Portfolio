@@ -66,7 +66,7 @@ const Projectsection = () => {
   }, []);
 
   return (
-    <div className='sm:max:w-[1140px] mx-auto mt-6 py-4' id="projects">
+    <div className='sm:max:w-[1140px] mx-auto my-20 py-4 '  id="projects">
       <div className='sm:w-[80%] mx-auto py-4' data-aos="fade-up">
         <h1 className='text-4xl font-bold text-center text-gray-900 dark:text-white mb-12'>Projects</h1>
         <p className='text-slate-600 dark:text-slate-300 mt-3 text-lg'>
@@ -81,6 +81,7 @@ const Projectsection = () => {
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
+          autoHeight={true}   // 👈 auto-adjust height based on slide content
         >
           {ProjectData.map((project) => (
             <SwiperSlide key={project.id}>
