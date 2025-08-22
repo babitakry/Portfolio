@@ -5,23 +5,19 @@ const qualifications = [
     id: 1,
     title: "Bachelor of Technology in Computer Science",
     institution: "Asansol Engineering College (AEC)",
-    duration: "2022 - 2026",
-    description:
-      "CGPA: 8.65 | Core Subjects: Data Structures & Algorithms, Operating Systems, DBMS.",
+    duration: "2022 - 2026 | Persuing",
   },
   {
     id: 2,
     title: "Higher Secondary Education (12th)",
     institution: "ST. Mary Goretti Girls' High School",
-    duration: "2019 - 2021",
-    description: "Percentage: 70% | Stream: Science (PCM)",
+    duration: "2019 - 2021 | Completed",
   },
   {
     id: 3,
     title: "Secondary Education (10th)",
     institution: "ST. Mary Goretti Girls' High School",
-    duration: "2017 - 2019",
-    description: "Percentage: 68%",
+    duration: "2017 - 2019 | Completed",
   },
 ];
 
@@ -50,7 +46,7 @@ const Qualification = () => {
               </h3>
               <p className="text-gray-700 dark:text-gray-300 text-sm">{item.institution}</p>
               <p className="text-gray-600 dark:text-gray-400 text-xs mb-2">{item.duration}</p>
-              <p className="text-gray-700 dark:text-gray-300 text-sm">{item.description}</p>
+              {/* <p className="text-gray-700 dark:text-gray-300 text-sm">{item.description}</p> */}
             </div>
           </div>
         ))}
