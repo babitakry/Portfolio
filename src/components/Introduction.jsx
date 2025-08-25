@@ -33,7 +33,7 @@ function Introduction() {
                     <h2 className='text-[#FD6F00]'>A <span>&lt;</span></h2>
                     <Typewriter
                         options={{
-                            strings: ['Web Developer', 'Frontend Developer', 'Coder', 'Learner'],
+                            strings: ['Web Developer', 'Full Stack Developer', 'Coder', 'Learner'],
                             autoStart: true,
                             loop: true,
                         }}
