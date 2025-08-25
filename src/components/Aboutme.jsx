@@ -41,8 +41,8 @@ function Aboutme() {
         >
           <ul className="list-disc leading-6 sm:leading-7 text-sm sm:text-base space-y-2">
             <li>I am Babita Kumari, a B.Tech student in Computer Science and Engineering at Asansol Engineering College.</li>
-            <li>Skilled in frontend development, with expertise in technologies including React.js, JavaScript, HTML, CSS, and Tailwind CSS.</li>
-            <li>Accomplished in solving over 650+ data structures and algorithms problems on LeetCode using C++.</li>
+            <li>Skilled in Full Stack Web development, with expertise in technologies including React.js, JavaScript, HTML, CSS, and Tailwind CSS, MongoDB, Express.js, Node.js, React.js</li>
+            <li>Accomplished in solving over 800+ data structures and algorithms problems on LeetCode using C++.</li>
           </ul>
         </div>
 
