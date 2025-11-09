@@ -3,8 +3,8 @@ import { Link } from 'react-scroll'
 
 const MobileNavbar = () => {
     return (
-        <div className='border rounded-md border-slate-400 bg-white opacity-95 text-slate-900 absolute top-20 right-0 z-50 p-4 px-6 lg:hidden'>
-            <div className='w-full flex flex-col justify-start items-start align-middle gap-3 pt-3 text-sm '>
+        <div className='w-screen max-w-48 rounded-md border-2 border-slate-200 bg-white opacity-95 text-slate-900  z-50 p-4 px-6 lg:hidden'>
+            <div className='w-full flex flex-col items-start gap-3 pt-3 text-sm '>
                 <Link
                     to="home"
                     spy={true}
@@ -12,7 +12,7 @@ const MobileNavbar = () => {
                     offset={-80}
                     duration={500}
                     activeClass="text-[#FD6F00] dark:text-[#FD6F00] underline underline-offset-4 "
-                    className="w-full cursor-pointer  hover:text-[#FD6F00]"
+                    className=" cursor-pointer  hover:text-[#FD6F00]"
                 >Home
                 </Link>
                 <Link
@@ -22,7 +22,7 @@ const MobileNavbar = () => {
                     offset={-80}
                     duration={500}
                     activeClass="text-[#FD6F00] dark:text-[#FD6F00] underline underline-offset-4 "
-                    className="w-full cursor-pointer hover:text-[#FD6F00] "
+                    className=" cursor-pointer hover:text-[#FD6F00] "
                 >About
                 </Link>
                 <Link
@@ -32,7 +32,7 @@ const MobileNavbar = () => {
                     offset={-80}
                     duration={500}
                     activeClass="text-[#FD6F00] dark:text-[#FD6F00] underline underline-offset-4 "
-                    className="w-full cursor-pointer hover:text-[#FD6F00] "
+                    className=" cursor-pointer hover:text-[#FD6F00] "
                 >Skills
                 </Link>
                 <Link
@@ -42,7 +42,7 @@ const MobileNavbar = () => {
                     offset={-80}
                     duration={500}
                     activeClass="text-[#FD6F00] dark:text-[#FD6F00] underline underline-offset-4 "
-                    className="w-full cursor-pointer hover:text-[#FD6F00]"
+                    className=" cursor-pointer hover:text-[#FD6F00]"
                 >Qualifications
                 </Link>
                 <Link
@@ -52,7 +52,7 @@ const MobileNavbar = () => {
                     offset={-80}
                     duration={500}
                     activeClass="text-[#FD6F00] dark:text-[#FD6F00] underline underline-offset-4 "
-                    className="w-full cursor-pointer hover:text-[#FD6F00] "
+                    className=" cursor-pointer hover:text-[#FD6F00] "
                 >Projects
                 </Link>
                 <Link
@@ -62,7 +62,7 @@ const MobileNavbar = () => {
                     offset={-80}
                     duration={500}
                     activeClass="text-[#FD6F00] dark:text-[#FD6F00] underline underline-offset-4 "
-                    className="w-full cursor-pointer hover:text-[#FD6F00] "
+                    className=" cursor-pointer hover:text-[#FD6F00] "
                 >Contact me
                 </Link>
                 <button

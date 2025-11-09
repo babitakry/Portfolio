@@ -81,7 +81,7 @@ const NavBar = () => {
               ) : (
                 <RxHamburgerMenu
                   onClick={() => setOpenHamb(true)}
-                  className='block lg:hidden text-3xl pb-1'
+                  className='block lg:hidden text-3xl pb-1 sm:mt-2'
                   data-aos="zoom-in"
                   data-aos-delay="400"
                 />
@@ -114,6 +114,7 @@ const NavBar = () => {
         <div
           data-aos="fade-left"
           data-aos-delay="100"
+          className='absolute top-14 dark:top-16 right-0'
         >
           <MobileNavbar />
         </div>
